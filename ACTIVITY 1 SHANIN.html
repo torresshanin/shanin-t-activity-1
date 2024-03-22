@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Images with CSS Grid</title>
+<style>
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+
+  .responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+  <div class="image-grid">
+    <img src="Image1.jpg" alt="Image 1" class="responsive-img">
+    <img src="Image2.jpg" alt="Image 2" class="responsive-img">
+    <img src="Image3.jpg" alt="Image 3" class="responsive-img">
+    <img src="Image4.jpg" alt="Image 4" class="responsive-img">
+    <img src="Image5.jpg" alt="Image 5" class="responsive-img">
+    <img src="Image6.jpg" alt="Image 6" class="responsive-img">
+    <img src="Image7.jpg" alt="Image 7" class="responsive-img">
+    <img src="Image8.jpg" alt="Image 8" class="responsive-img">
+    <img src="Image9.jpg" alt="Image 9" class="responsive-img">
+    <img src="Image10.jpg" alt="Image 10" class="responsive-img">
+    <img src="Image11.jpg" alt="Image 11" class="responsive-img">
+    <img src="Image12.jpg" alt="Image 12" class="responsive-img">
+    <!-- Add more images here -->
+  </div>
+</body>
+</html>
